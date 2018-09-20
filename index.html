@@ -234,7 +234,7 @@
 			}rotateCarousel(currImage);
 		}
 		function setupNavigation() {
-			figure.addEventListener('touchmove', onClick, true);
+			figure.addEventListener('touchstart', onClick, true);
 			function onClick(e) {
 				e.stopPropagation();
 				var t = e.target;
