@@ -110,6 +110,9 @@ button,input,textarea {
     height: 0.62rem;
     display: block;
 }
+.nav-margin-top{
+	margin-top:1.6rem;
+}
 @media (min-width: 768px){
 	.navbar-collapse{
 		background:none;
